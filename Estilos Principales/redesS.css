@@ -1,0 +1,52 @@
+.redesSociales {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.followP{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+
+}
+
+.redesSociales p {
+    color: var(--blanco);
+    font-size: 1.6rem;
+    text-align: center;
+
+}
+
+span {
+    padding: 0 10px;
+    transition: opacity 0.3s;
+    align-self: center;
+
+}
+
+.sibling-fade:hover span:not(:hover) {
+    opacity: 0.5;
+
+}
+
+@media (max-width: 330px) {
+    .redesSociales {
+        margin-left: 5%;
+    }
+
+}
+
+@media (max-width: 311px) {
+    .fotorama {
+        margin-left: 0;
+    }
+
+}

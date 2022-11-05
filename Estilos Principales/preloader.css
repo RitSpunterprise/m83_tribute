@@ -1,0 +1,53 @@
+*,*::after, *::before{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+#cont_preloader{
+    background: black;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 100000;
+    
+}
+
+#carga{
+    background: url("https://c.tenor.com/sYzedsyllJwAAAAC/rockout-guitar.gif") no-repeat center center;
+    height: 100%;
+    width: 100%;
+    background-size: 30%;
+}
+
+@media (max-width: 900px) {
+
+    #carga{
+        background-size: 50%;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    #carga{
+        background-size: 60%;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    #carga{
+        background-size: 80%;
+    }
+
+}

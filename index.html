@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#027FC3">
+    <title>M83 | Official Website</title>
+
+    <!-- TODAS LAS HOJAS DE ESTILO CSS -->
+    <link rel="stylesheet" href="Estilos Principales/styles.css">
+    <link rel="stylesheet" href="Estilos Principales/menu.css">
+    <link rel="stylesheet" href="Estilos Principales/redesS.css">
+    <link rel="stylesheet" href="Estilos Principales/email.css">
+    <link rel="stylesheet" href="Estilos Principales/galeria.css">
+    <link rel="stylesheet" href="Estilos Principales/spotify.css">
+    <link rel="stylesheet" href="Estilos Principales/ventanaPopUp.css">
+    <link rel="stylesheet" href="Estilos Principales/preloader.css">
+    <link rel="stylesheet" href="Estilos Principales/selection.css">
+    <link rel="stylesheet" href="Estilos Principales/backToTopC.css">
+    <link rel="stylesheet" href="Estilos Principales/menuCualquierLado.css">
+
+    <!-- FAVICON DE LA PÁGINA -->
+    <link rel="shortcut icon" href="Img/IconoTitulo.png" type="image/x-icon">
+
+    <!-- GALERIA FOTORAMA -->
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <!-- PRELOADER DE LA PÁGINA -->
+        <div id="cont_preloader">
+            <div id="carga">
+
+            </div>
+        </div>
+
+        <!-- BACK TO TOP BUTTON -->
+        <button id="button" onclick="scrollToTop(event)" title="Ir hacía arriba"></button>
+
+        <!-- HEADER -->
+        <header class="cabeza">
+
+            <!-- LOGO DE M83 -->
+            <section class="m83Logo" id="m83Logo">
+                <a href="index.html" class="tituloImg"><img class="imgTitulo"
+                        src="https://ilovem83.com/wp-content/uploads/2021/12/logo-800x379.png" alt="M83"
+                        title="M83"></a>
+            </section>
+
+            <input type="checkbox" id="boton_Menu" name="boton_Menu" value="checked">
+            <label class="hamburger-menu" for="boton_Menu"><img class="logoMenu" src="Img/menuIcono.png"
+                    alt=""></label>
+
+            <!-- MENÚ LATERAL -->
+            <nav class="menu">
+                <ul>
+                    <label class="hamburger-menu menuCierre" for="boton_Menu"><img class="logoMenu"
+                            src="Img/menuIcono.png" alt=""></label>
+                    <li><a href="#m83Logo">Principal</a></li>
+                    <li><a href="#videoYoutube">Video Musical</a></li>
+                    <li><a href="#M83">M83</a></li>
+                    <li><a href="#biografia">Biografía</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#estilo">Estilo</a></li>
+                    <li><a href="#spotify">Esto es M83</a></li>
+                    <li><a href="#followM83">Sigue a M83</a></li>
+                    <li><a href="#suscribirse">Contacto</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <!-- ABRIR MENÚ EN CUALQUIER LUGAR -->
+        <button id="button2" title="Acceder al menú"><label class="hamburger-menu" for="boton_Menu"><img
+                    class="logoMenu2" src="Img/menuIcono.png" alt=""></label></button>
+
+        <!-- TODO EL CONTENIDO PRINCIPAL -->
+        <main class="principal">
+
+            <!-- VIDEO MUSICAL -->
+            <section class="videoYoutube" id="videoYoutube">
+                <iframe class="iframeVideo" type="text/html" src="https://www.dailymotion.com/embed/video/xlrj13"
+                    width="100%" height="100%" allowfullscreen> </iframe>
+            </section>
+
+            <!-- M83 -->
+            <section class="texto" id="M83">
+                <p>
+                    De la mano de <strong>Nicolás Fromageau</strong> y <strong>Anthony González</strong> nace en el 2001
+                    el
+                    grupo cuyo nombre es inspirado en
+                    la galaxia espiral <strong>“Messier 83”</strong>. Sus letras suaves que a veces se sumergen en la
+                    instrumentación definen
+                    el estilo de la banda.
+
+                </p>
+
+                <br>
+                <p>
+                    Desde su primer álbum con título <strong>homónimo</strong> hasta el <strong>"Before the Dawn Heals
+                        Us"</strong> (publicado en 2005 y
+                    último disco sin contar con el proyecto paralelo llamado <em>"Digital Shades"</em> que comenzó en
+                    2007),
+                    se
+                    descubre una evolución en su música, alejándose un poco de la <strong>electrónica</strong> y
+                    acercándose
+                    algo más nuevo y
+                    creativo, mediante el uso de objetos no instrumentales, cercanos al <strong>shoegazing</strong>.
+                    Tienen
+                    una gran
+                    popularidad en el <em>Reino Unido</em> por estar presentes sus temas en las emisiones de
+                    <strong>BBC Radio 1</strong>, la emisora
+                    con más audiencia de los jóvenes de 15 a 29 años de dicho país.
+                </p>
+
+                <br>
+                <p>
+                    El grupo estaba compuesto originalmente por <strong>Anthony González</strong> y <strong>Nicolas
+                        Fromageau</strong>. Tras la gira
+                    de <em>Dead Cities, Red Seas</em> y <em>Lost Ghosts</em>, <strong>Nicolas Fromageau</strong> dejó el
+                    grupo en 2004, y en
+                    2009 formó el grupo <strong><em>Team Ghost</em></strong>.
+                </p>
+            </section>
+
+            <section class="seccionImagen1">
+                <a class="imgPrimer"><img class="primerImg"
+                        src="https://consequence.net/wp-content/uploads/2018/04/anthony-gonzalez-and-nicolas-fromageau.png"
+                        alt="M83"></a>
+
+            </section>
+
+            <!-- BIOGRAFÍA -->
+            <section class="segundoTexto" id="biografia">
+                <h2 class="titulosH2">Biografía</h2>
+
+                <p>
+                    <strong>Anthony Gerard González</strong> (nacido el 13 de marzo de 1980) creció en <em>Antibes,
+                        Francia</em> junto
+                    con su hermano <strong>Yann</strong>. Su familia tenía un gran interés en el fútbol y
+                    <strong>González</strong> tuvo pruebas con el
+                    <em>AS Cannes</em>, mientras que su abuelo materno es el internacional francés Laurent Robuschi.
+                    A la edad de 14 años se lesionó y empezó a escuchar música después de que sus padres le compraran
+                    una
+                    guitarra. <strong>González</strong> desarrolló su interés por la música y la cultura estadounidense
+                    mientras estaba
+                    en la escuela secundaria. Junto con <strong>Fromageau</strong> formó un grupo post-rock llamado
+                    <em>My
+                        Violent Wish</em>.
+                </p>
+
+                <h2 class="titulosH2Start">Carrera profesional</h2>
+                <h2 class="titulosH2">2001-2005</h2>
+
+                <p>
+                    A la edad de 17 años, <strong>González</strong> compró un sintetizador para grabar una maqueta, que
+                    envió a varios sellos
+                    franceses. Cuando <strong><em>Gooom Records</em></strong>, con sede en París, pareció interesarse,
+                    reclutó a <strong>Nicolas Fromageau
+                    </strong> para que <em>"me ayudara porque no sentía que tuviera los hombros para llevar el proyecto
+                        por
+                        mi cuenta"</em>.
+                    La banda lleva el nombre de la galaxia <strong>“Messier 83”</strong>.
+                </p>
+
+                <p>
+                    En la primavera de <strong>2001</strong>, M83 lanzó su álbum debut homónimo grabado en 8 pistas
+                    mientras
+                    <strong>González</strong> todavía
+                    estaba en la universidad. El lanzamiento no atrajo mucha atención fuera de Europa hasta
+                    <strong>septiembre
+                        de 2005</strong>, cuando <strong><em>Mute Records</em></strong> reeditó el álbum para un
+                    lanzamiento
+                    mundial. El segundo álbum de M83, <em>Dead
+                        Cities, Red Seas & Lost Ghosts</em>, siguió en la primavera de <strong>2003</strong> (y el
+                    verano de
+                    2004 en América del
+                    Norte) con gran éxito de crítica. Después de que se reanudaran las giras mundiales de Dead Cities,
+                    <strong>Fromageau</strong> dejó la banda; más tarde formó la banda <strong>Team Ghost</strong> en
+                    2009.
+                </p>
+
+                <br>
+                <br>
+                <section class="seccionImagen1">
+                    <a class="imgPrimer"><img class="primerImg"
+                            src="https://lastfm.freetls.fastly.net/i/u/ar0/ce271773053bb5ae906086a44b76c75b.jpg"
+                            alt="M83"></a>
+
+                </section>
+
+                <p>
+                    <strong>González</strong> regresó al estudio para grabar el tercer álbum de estudio del grupo,
+                    <em>Before the Dawn Heals Us</em>,
+                    que fue lanzado en enero de <strong>2005</strong>. El mismo año, <strong>M83</strong> proporcionó un
+                    remix de <em>"The Pioneers"</em> de <strong>Bloc
+                        Party</strong>, que también se incluyó en el álbum de remezclas <em>"Silent Alarm Remixed"</em>
+                    de
+                    <strong>Bloc Party</strong>. <strong>M83</strong> también
+                    remezcló <em>"Protège-Moi"</em> de <strong>Placebo</strong>, <em>"Black Cherry"</em> de
+                    <strong>Goldfrapp</strong>,
+                    <em>"Suffer Well"</em> de <strong>Depeche Mode</strong>, <em>"Kelly"</em> de <strong>Van
+                        She</strong> y
+                    <em>"Vila Attack"</em>
+                    de <strong>The Bumblebeez</strong>. Del mismo modo, las canciones de <strong>M83</strong> han sido
+                    remezcladas por los compañeros de sello de <strong><em>Gooom, Montag y Cyann & Ben</em></strong>.
+                </p>
+
+                <h2 class="titulosH2">2006-2009</h2>
+
+                <p>
+                    En <strong>2006</strong>, después de la gira estadounidense <em>"Before the Dawn Heals Us"</em>,
+                    <strong>Anthony González</strong>
+                    continuó explorando una dirección musical ya escuchada en pistas anteriores de <strong>M83</strong>
+                    y
+                    comenzó a escribir y grabar
+                    una colección de trabajos ambientales. El álbum se grabó principalmente en el estudio de su casa
+                    con la ayuda de <strong>Antoine Gaillet</strong>. El proyecto resultante se llamó <em>"Digital
+                        Shades
+                        Vol. 1"</em>, y fue lanzado
+                    en septiembre de <strong>2007</strong> con una portada ilustrada por <strong>Laurent Fetis</strong>
+                    (conocido por su trabajo con DJ Hell,
+                    Beck y Tahiti 80). Se pretende que sea parte de una serie de trabajos ambientales en curso.
+                </p>
+
+                <p>
+                    <em>"Saturdays = Youth"</em>, el quinto álbum de estudio de <strong>M83</strong>, fue lanzado en
+                    abril
+                    de <strong>2008</strong>.
+                    Fue grabado con <strong>Ken Thomas</strong> (conocido por su trabajo con Sigur Rós, The Sugarcubes,
+                    Boys
+                    in a Band, Cocteau Twins y
+                    Suede), <strong>Ewan Pearson</strong> (quien ha también producido para Tracey Thorn, The Rapture y
+                    Ladytron) y <strong>Morgan Kibby</strong>
+                    (de The Romanovs). El álbum presenta un enfoque más centrado en la estructura y la forma de las
+                    canciones, y <strong>González</strong> afirmó que la principal influencia del álbum provino de la
+                    música
+                    de los 80: <em>"Creo
+                        que la música de los 80 es un período tan brillante para la historia de la música. Fue la
+                        ocasión
+                        para
+                        mí hacer un tributo a esta música de los 80, pero también fue un tributo a mi adolescencia
+                        porque el
+                        tema principal del álbum es ser un adolescente, y ser un adolescente significa mucho para
+                        mí"</em>.
+                    Se
+                    lanzaron cuatro sencillos del álbum: <em>"Couleurs"</em> en febrero de <strong>2008</strong>,
+                    <em>"Graveyard Girl"</em> en abril, <em>"Kim &
+                        Jessie"</em> en julio y <em>"We Own the Sky"</em> en diciembre. <strong>Redbull</strong> y el
+                    snowboarder <strong>Travis Rice</strong>
+                    utilizaron <em>"We Own the Sky"</em> como la <strong>canción de apertura en la película de snowboard
+                        de
+                        2008</strong> <em>"Eso es todo"</em>.
+                    <strong>M83</strong> remezcló <em>"To the Sky"</em> de <strong>Maps</strong>, mientras que
+                    <strong>Maps</strong> proporcionó una remezcla de
+                    <em>"We Own the Sky"</em> de <strong>M83</strong>.
+                </p>
+
+                <br>
+                <br>
+                <section class="seccionImagen1">
+                    <a class="imgPrimer"><img class="primerImg"
+                            src="https://images-na.ssl-images-amazon.com/images/I/61iteYXdRoL._AC_UL600_SR600,600_.jpg"
+                            alt="M83"></a>
+
+                </section>
+
+                <p>
+                    En diciembre de <strong>2008</strong>, <strong>M83</strong> apoyó a <strong>Kings of Leon</strong>
+                    en su
+                    gira por el Reino Unido. En enero y febrero
+                    de <strong>2009</strong>, <strong>M83</strong> apoyó a <strong>The Killers</strong> en las fechas de
+                    su
+                    gira por Estados Unidos y realizó una gira con
+                    <strong>Depeche Mode</strong> en su <em>"Tour of the Universe"</em> en Italia, Alemania y Francia.
+                    En
+                    julio, <strong>M83</strong> apareció
+                    en el <em>Fuji Rock Festival</em> en Japón. En julio de <strong>2009</strong>, <strong>M83</strong>
+                    apareció en el <em>Wexner Center</em> en Columbus,
+                    Ohio. <strong>González</strong>, sin provocación, agredió físicamente a un guardia de seguridad
+                    anciano
+                    cuando <strong>González</strong>
+                    intentó que miembros de la multitud se unieran a él en una plataforma del escenario no reforzada. La
+                    banda luego se disculpó con sus fans por el incidente. En <strong>2010</strong>, en vísperas de
+                    cumplir
+                    30 años, <strong>González</strong>
+                    se mudó a Los Ángeles.
+                </p>
+
+                <h2 class="titulosH2">2010-2015: Hurry Up, We're Dreaming, olvido y éxito comercial</h2>
+
+                <p>
+                    En la primavera de <strong>2010</strong>, <strong>M83</strong> compuso la partitura de la película
+                    <strong>Black Heaven</strong> del director francés
+                    <strong>Gilles Marchand</strong>. El 5 de julio de <strong>2010</strong>, se lanzó la banda sonora
+                    de
+                    <em>Black Heaven</em>, que incluía dos
+                    nuevas canciones de <strong>M83</strong> llamadas <em>"Black Hole"</em> y <em>"Marion's Theme"</em>,
+                    junto con cinco pistas de su catálogo
+                    anterior. La banda sonora también incluye canciones de la banda sonora de <strong>Emmanuel
+                        D'Orlando,
+                        Moon
+                        Dailly</strong> y <strong>John & Jehn</strong>. Sin embargo, sus <strong>sentimientos</strong>
+                    hacia
+                    el disco fueron en gran parte
+                    <strong>negativos</strong>, dejándolo <strong>deprimido</strong>.
+                </p>
+
+                <br>
+                <br>
+                <section class="seccionImagen1">
+                    <a class="imgPrimer"><img class="primerImg"
+                            src="https://direct.rhapsody.com/imageserver/images/alb.70722157/500x500.jpg" alt="M83"></a>
+
+                </section>
+
+                <p>
+                    En <strong>2011</strong>, <strong>González</strong> comenzó a trabajar en un nuevo lote de canciones
+                    para un álbum que se lanzará a
+                    finales de año. Describió las pistas como más oscuras y <em>"muy, muy, muy épicas"</em>. Hablando
+                    con
+                    <strong>Spin</strong>, dijo
+                    sobre el nuevo álbum: <em>"Es un álbum doble. Se trata principalmente de sueños, cómo cada uno es
+                        diferente,
+                        cómo sueñas de manera diferente cuando eres un niño, un adolescente o un adulto. Estoy realmente
+                        orgulloso de eso. Si estás haciendo un álbum muy largo, todas las canciones deben ser diferentes
+                        y
+                        creo
+                        que lo he hecho con este"</em>. Volvió a grabar con <strong>Morgan Kibby</strong> y otros,
+                    incluido
+                    el autor intelectual
+                    de <em>Medicine</em> <strong>Brad Laner</strong>, el bajista de <em>Nine Inch Nails</em>
+                    <strong>Justin
+                        Meldal-Johnsen</strong> y
+                    <strong>Zola Jesus</strong>.
+                </p>
+
+                <p>
+                    <em>Hurry Up, We're Dreaming</em> es el primer <strong>álbum doble</strong> de
+                    <strong>González</strong>, algo que había soñado con hacer desde
+                    que escuchaba <strong>The Smashing Pumpkins</strong> <em>Mellon Collie y la tristeza infinita</em>.
+                    <em>"Quería hacer un álbum muy
+                        ecléctico pero también algo no demasiado largo. Hacer un álbum doble fue un sueño mío durante
+                        mucho,
+                        mucho tiempo y me sentí listo para hacer este movimiento"</em>, explica. Hablando sobre el
+                    sonido y
+                    el
+                    proceso de creación de este álbum, <strong>González</strong> dice que fue <em>"escrito como la banda
+                        sonora de una película
+                        imaginaria con diferentes ambientes, diferentes atmósferas, diferentes tempos, diferentes
+                        orquestaciones
+                        y diferente instrumentación... Cuando hago un álbum siempre se trata de nostalgia, melancolía
+                        del
+                        pasado y recuerdos"</em>.
+                </p>
+
+                <br>
+                <br>
+                <section class="seccionImagen1">
+                    <a class="imgPrimer"><img class="primerImg"
+                            src="https://e.snmc.io/i/1200/s/22f9b5b46d0613dbae920aa0320785b4/4192898" alt="M83"></a>
+
+                </section>
+
+                <p>
+                    El 19 de julio de <strong>2011</strong>, el sencillo <strong><em>"Midnight City"</em></strong>, el
+                    primero de <em>Hurry Up, We're Dreaming</em>,
+                    fue lanzado para transmisión y descarga gratuita en el sitio web oficial de la banda. A partir de
+                    octubre, realizaron una gira por Norteamérica y Europa para promocionar el álbum; <strong>Active
+                        Child</strong> apoyó la
+                    etapa estadounidense de la gira. El álbum se ubicó <strong>tercero</strong> en la lista de los
+                    <em>50
+                        mejores álbumes de
+                        2011 de <strong>Pitchfork</strong></em>; el sencillo <strong><em>"Midnight City"</em></strong>
+                    se
+                    colocó en <strong>primer lugar</strong>
+                    en la lista de las <em>100 mejores pistas</em>. El 26 de enero de <strong>2012</strong>,
+                    <strong>M83</strong>
+                    llegó al <strong>número 5</strong> en <em>Triple J Hottest 100</em> con el
+                    sencillo <strong><em>"Midnight City"</em></strong>. La pista recibió una mayor exposición en
+                    <strong>2013</strong> como la banda sonora remezclada
+                    del anuncio televisivo de fragancias <strong>Gucci Premier con Blake Lively</strong>. También se
+                    utilizó
+                    en la
+                    película <em>Warm Bodies</em> de <strong>2013</strong>.
+                </p>
+
+                <br>
+                <br>
+                <section class="seccionImagen1">
+                    <a class="imgPrimer"><img class="primerImg"
+                            src="https://m.media-amazon.com/images/M/MV5BODhhMDA3NTYtNjdhYy00NTkwLWI3NmYtMWIwMTU2YTdlOTI5XkEyXkFqcGdeQXVyNzA5MzkyOTM@._V1_FMjpg_UX1000_.jpg"
+                            alt="M83"></a>
+
+                </section>
+
+                <p>
+                    El 28 de junio de <strong>2012</strong>, se anunció que <strong>M83</strong> compondría la banda
+                    sonora
+                    de la película <strong>Oblivion</strong>
+                    de <strong>2013</strong>,
+                    dirigida por <strong>Joseph Kosinski</strong> y protagonizada por <strong>Tom Cruise</strong>. La
+                    partitura fue <strong>coescrita</strong>
+                    con <strong>Joseph Trapanese</strong>. El álbum de la banda sonora fue lanzado el <strong>9 de abril
+                        de
+                        2013</strong> por <strong>Back Lot Music</strong>.
+                    El 26 de febrero de <strong>2014</strong>, se incluyó una nueva canción titulada <em>"I Need
+                        You"</em>
+                    en la banda sonora de <strong>Divergent</strong>.
+                    La canción <em>"Wait"</em> apareció en la película de <strong>2014</strong> <em>The Fault in our
+                        Stars</em>. También apareció en el
+                    episodio <em>"Perception"</em> de <strong>Revenge</strong> en <strong>2012</strong>, el episodio
+                    <em>"The Backup Dan"</em> de <strong>Gossip Girl</strong>
+                    en <strong>2012</strong>, el episodio <em>"Imperfect Circles"</em> de <strong>Under the
+                        Dome</strong> en
+                    <strong>2013</strong> y el episodio <em>"The World Has Turned and Left Me
+                        Here"</em> de <strong>The Vampire Diaries</strong> en <strong>2014</strong>. Más recientemente,
+                    <em>"Wait"</em> se usó como parte del documental <strong><em>"The
+                            Day We Walked On The Moon"</em></strong> que conmemora el <strong>50 aniversario del primer
+                        alunizaje</strong> y proyectado en el Reino
+                    Unido por <strong>ITV</strong> en julio de <strong>2019</strong>. También de <em>Hurry Up, We're
+                        Dreaming</em>, dos pistas, <em>"Another Wave from
+                        You"</em> y <em>"Outro"</em>, aparecen en el remake de <strong>2014</strong> de <strong>The
+                        Gambler</strong>. En <strong>2015</strong> y <strong>2016</strong>,
+                    el drama británico-franco-canadiense <strong>Versailles</strong>, utiliza <em>"Outro"</em> como
+                    título
+                    del tema. <em>"Outro"</em> también apareció
+                    en el popular documental de snowboard <strong>The Art of Flight</strong>, en un comercial de
+                    <strong>Mazda</strong> titulado <em>"Feel Alive"</em>
+                    en <strong>2018</strong>, y como la canción final en el final del programa de televisión de
+                    <strong>USA
+                        Networks <em>Mr. Robot</em></strong>.
+                    <strong>Moonchild</strong> participó en el desafío <strong>McLaren Mercedes SLR Oslo</strong> de
+                    <strong>Top Gear</strong>. La película italo-francesa
+                    <strong>Suburra</strong> de <strong>2015</strong> presenta extensamente música de
+                    <strong>M83</strong>.
+                </p>
+
+                <br>
+                <br>
+                <section class="seccionImagen1">
+                    <a class="imgPrimer"><img class="primerImg"
+                            src="https://i.ytimg.com/vi/UjpbQ1OWMPE/maxresdefault.jpg" alt="M83"></a>
+
+                </section>
+
+                <p>
+                    En agosto de <strong>2014</strong>, los primeros tres álbumes producidos por la banda fueron
+                    relanzados
+                    por <strong>Mute Records</strong>
+                    con <em>material adicional</em> disponible por separado para su descarga. <strong>González</strong>
+                    justificó las reediciones
+                    señalando que las copias físicas de los álbumes eran difíciles de encontrar y se vendían por
+                    <em>"una
+                        cantidad ridícula de dinero"</em>. El 2 de marzo de <strong>2015</strong>, <strong>M83</strong>,
+                    con
+                    el grupo de indie pop <strong>Haim</strong>,
+                    lanzó la canción <em>"Holes in the Sky"</em> de la banda sonora de <strong>The Divergent Series:
+                        Insurgent</strong>. También
+                    participó en el álbum <strong><em>Electronica 1: The Time Machine</em> de Jean-Michel
+                        Jarre</strong>.
+                </p>
+
+                <h2 class="titulosH2">2016-presente: Junk, Volta, Tour, DSVII y más éxito</h2>
+
+                <p>
+                    El 1 de marzo de <strong>2016</strong>, se anunció el séptimo álbum de estudio de
+                    <strong>M83</strong>,
+                    <em>Junk</em>, junto con su sencillo
+                    principal, <em>"Do It, Try It"</em>. El álbum fue lanzado el <strong>8 de abril de 2016</strong>. La
+                    banda luego se
+                    embarcó en una gira por América del Norte y Europa durante la primera mitad de
+                    <strong>2016</strong>.
+                </p>
+
+                <br>
+                <br>
+                <section class="seccionImagen1">
+                    <a class="imgPrimer"><img class="primerImg"
+                            src="https://i.scdn.co/image/ab67616d0000b273d3874f8e611afb37dbba3d7c" alt="M83"></a>
+
+                </section>
+
+                <p>
+                    El 5 de diciembre de <strong>2016</strong>, se anunció que <strong>González</strong> de
+                    <strong>M83</strong> sería el compositor y director musical del
+                    espectáculo itinerante del <em>Cirque du Soleil</em>, <strong>Volta</strong>.
+                </p>
+
+                <p>
+                    En julio de <strong>2019</strong>, <strong>González</strong> anunció el octavo álbum de estudio de
+                    <strong>M83</strong>,
+                    <strong>DSVII</strong> (que significa Digital
+                    Shades, Vol. II ), para su lanzamiento el <strong>20 de septiembre</strong> de ese año.
+                </p>
+
+                <br>
+                <br>
+                <section class="seccionImagen1">
+                    <a class="imgPrimer"><img class="primerImg"
+                            src="https://media.pitchfork.com/photos/5d2753ab98713d00083bb80a/1:1/w_600/M83_DSVII_CoverArt_hires.jpg"
+                            alt="M83"></a>
+
+                </section>
+
+                <p>
+                    En agosto de <strong>2019</strong>, <strong>Private Division</strong> usó la canción <em>Outro</em>
+                    de
+                    <strong>M83</strong>
+                    como parte del avance cinematográfico
+                    del juego <strong>Kerbal Space Program 2</strong>, que estaba en desarrollo en ese momento.
+                </p>
+            </section>
+
+            <!-- GALERIA -->
+            <section class="galeria" id="galeria">
+                <h2 class="titulosH2Bio">Galería</h2>
+                <!-- Add images to <div class="fotorama"></div> -->
+                <div class="fotorama" data-auto="false" data-allowfullscreen="true" data-transition="crossfade"
+                    data-loop="true" data-autoplay="7000" data-stopautoplayontouch="false">
+
+
+                </div>
+            </section>
+
+            <section class="texto" id="estilo">
+                <h2 class="titulosH2">Estilo</h2>
+
+                <p>
+                    La <strong>estética musical</strong> de la banda se caracteriza por el uso extensivo de <em>efectos
+                        de reverberación</em> y
+                    <em>letras pronunciadas en voz baja sobre instrumentos fuertes</em>. <strong>González</strong> se ha
+                    inspirado en aspectos del
+                    <em>Sueño Americano</em> y sus canciones se han esbozado como temáticas en torno a <em>"sueños de
+                        adolescentes
+                        con guiones para adultos"</em>. La inspiración para el estilo de los <strong>80</strong> que se
+                    encuentra en gran
+                    parte de la música de <strong>González</strong> incluye bandas como <strong>My Bloody
+                        Valentine</strong>, <strong>Pink Floyd</strong>
+                    y <strong>Tangerine Dream</strong>. Entre varias propiedades de la <strong>música
+                        electrónica</strong> y las ilustraciones del álbum, el estilo
+                    de <strong>M83</strong> incluye una mezcla de <strong>pop contemporáneo</strong> y <strong>dream pop
+                        de los 80</strong>.
+                </p>
+            </section>
+
+            <!-- SPOTIFY -->
+            <section class="spotify" id="spotify">
+                <h2 class="titulosH2Bio">Esto es M83</h2>
+                <iframe style="border-radius:12px" class="spotify2"
+                    src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO3zDJMk?utm_source=generator"
+                    width="50%" height="580" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </section>
+
+            <!-- REDES SOCIALES -->
+            <section class="redesSociales" id="followM83">
+                <div class="sibling-fade">
+                    <p class="followP">Sigue a M83:</p>
+
+                    <span><a href="https://www.instagram.com/m83music/" target="_blank"><svg
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"
+                                width="72" height="72" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <rect x="4" y="4" width="16" height="16" rx="4" />
+                                <circle cx="12" cy="12" r="3" />
+                                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                            </svg></a></span>
+
+                    <span><a href="https://twitter.com/intent/user?screen_name=m83" target="_blank"><svg
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter"
+                                width="72" height="72" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                            </svg></a></span>
+
+                    <span><a href="https://www.facebook.com/m83/" target="_blank"><svg
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"
+                                width="72" height="72" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                            </svg></a></span>
+                </div>
+            </section>
+
+            <!-- FORMULARIO CONTACTO -->
+            <section class="sign-up" id="suscribirse">
+                <div class="email">
+                    <p class="signUp">CONTACTO</p>
+
+                    <form class="formulario">
+                        <!-- Ponemos dentro de un fieldset para que por asi decirlo, este dentro de un margen y esté mas ordenado poniendo un limite
+                            a los elemento dentro de este margen -->
+                        <fieldset class="textField">
+
+                            <label> Ingrese su nombre, apellidos, dirección de correo electrónico y número de teléfono
+                                para
+                                suscribirse a la lista de
+                                correo de M83 y sea el primero en obtener la preventa de boletos, noticias sobre música
+                                nueva, anuncios de fechas
+                                para las giras, videos y mucho más! </label>
+
+
+                            <input class="txtField" type="text" name="nombre" id="nombre" placeholder="Nombre...">
+                            <input class="txtField" type="text" name="apellidos" id="apellidos"
+                                placeholder="Apellidos...">
+                            <input class="txtField" type="email" name="email" id="email"
+                                placeholder="Correo electrónico...">
+                            <input class="txtField" type="tel" name="telefono" id="telefono"
+                                placeholder="Número de teléfono...">
+
+                            <div class="check">
+                                <input type="checkbox" id="checkMarketing">
+                                Me gustaría recibir publicidad de M83
+                            </div>
+
+                            <button class="boton" type="button" onclick="formulario()">SUBSCRIBIRSE</button>
+
+                            <iframe class="iframeMaps"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.2740830116!2d-118.69192271244958!3d34.020161301458366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2smx!4v1653498222093!5m2!1ses-419!2smx"
+                                width="450" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </fieldset>
+                    </form>
+
+                </div>
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="piePagina">
+            <section class="redireccionPaginas2">
+                <a href="#m83Logo">Principal</a>
+                <a href="#videoYoutube">Video Musical</a>
+                <a href="#M83">M83</a>
+                <a href="#biografia">Biografía</a>
+            </section>
+
+            <section class="redireccionPaginas2">
+                <a href="#galeria">Galería</a>
+                <a href="#estilo">Estilo</a>
+                <a href="#spotify">Esto es M83</a>
+
+            </section>
+
+            <section class="redireccionPaginas2">
+                <a href="#followM83">Sigue a M83</a>
+                <a href="#suscribirse">Contacto</a>
+            </section>
+
+            <p>© 2022 M83 - Powered by Yenko Enterprises</p>
+
+        </footer>
+
+        <script src="Javascript/ventanaPop.js"></script>
+        <script src="Javascript/scroll.js"></script>
+        <script src="Javascript/preloaderJ.js"></script>
+        <script src="Javascript/backToTop.js"></script>
+        <!-- Script para la galeria con todas las imagenes -->
+        <script src="Javascript/fotorama.js"></script>
+
+    </body>
+
+</html>
