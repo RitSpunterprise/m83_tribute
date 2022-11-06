@@ -1,10 +1,10 @@
 //Javascript
 //obtenemos los audios que queremos utilizar
 var sonidoAlerta = new Audio();
-sonidoAlerta.src = "../snds/sonidoAlerta.mp3"
+sonidoAlerta.src = "snds/sonidoAlerta.mp3"
 
 var sonidoAlerta2 = new Audio();
-sonidoAlerta2.src = "../snds/sonidoAlerta2.mp3";
+sonidoAlerta2.src = "snds/sonidoAlerta2.mp3";
 
 function formulario() {
 
