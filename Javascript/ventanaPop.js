@@ -46,7 +46,7 @@ function formulario() {
         //y si el check está activo, le anadimos eso a la ventana emergente 
         if (marketing.checked) {
             swal({
-                icon: '../Img/Check_Circle_64.png',
+                icon: 'Img/Check_Circle_64.png',
                 title: mensajeFinal,
                 text: 'Se le enviará publicidad de M83 a su correo!',
                 buttons: { cancel: "OK" }
