@@ -19,7 +19,7 @@ function formulario() {
     if (nombre == "" || apellidos == "" || email == "" || telefono == "") {
         //le avisamos que debe llenarlo
         swal({
-            icon: '../Img/error_64.png',
+            icon: 'Img/error_64.png',
             title: 'Ningún espacio puede quedar vacío, rellene cada uno de estos por favor!',
             buttons: { cancel: "OK" }
 
@@ -36,7 +36,7 @@ function formulario() {
         //le decimos que gracias
         swal({
             title: mensajeFinal,
-            icon: '../Img/Check_Circle_64.png',
+            icon: 'Img/Check_Circle_64.png',
             buttons: { cancel: "OK" }
         });
 
