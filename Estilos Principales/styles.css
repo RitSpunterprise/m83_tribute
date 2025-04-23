@@ -243,7 +243,7 @@ body {
     align-items: center;
     align-self: center;
     /*border: 1px solid var(--blanco);*/
-    border: none;
+    /*border: none;*/
 
 }
 
@@ -251,7 +251,8 @@ body {
     margin-top: 3rem;
     width: 100%;
     height: 100%;
-    border-color: var(--negro);
+    /*border-color: var(--negro);*/
+    border: none;
 
 }
 
