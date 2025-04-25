@@ -138,6 +138,15 @@ body {
 
 }
 
+/*Solo para la imagen de Do It Try It del penultimo parrafo porque no se encontro otra de un tamanio igual a las demas*/
+.imgDoIt {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    /*border: 1px solid var(--blanco);*/
+
+}
+
 .primerImg {
     width: 100%;
     transition: all 0.3s;
