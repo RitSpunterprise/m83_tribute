@@ -1,5 +1,6 @@
 :root {
     --rositaHover: #A36C79;
+    --strongRositaHover: #91626d;
     --rosaMenu: #ab7477;
     --azulMenu: #9aaecb;
     --blanco: #fff;
@@ -36,7 +37,7 @@
 }
 
 .menu li:hover {
-    background: var(--rositaHover);
+    background: var(--strongRositaHover);
 
 }
 
