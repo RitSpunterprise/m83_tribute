@@ -77,7 +77,7 @@ body {
 /* el logo para abrir el menu */
 .logoMenu {
     cursor: pointer;
-    width: 50px;
+    width: 35%;
     margin-top: 40%;
     margin-right: 20%;
     /*border: 1px solid var(--blanco);*/
@@ -85,7 +85,7 @@ body {
 }
 
 .menuCierre {
-    width: 50px;
+    /*width: 50px;*/
     margin-top: -66px;
     margin-bottom: 20px;
     /*border: 1px solid black;*/
@@ -333,6 +333,32 @@ body {
 }
 
 /* medias toda la pagina */
+@media (max-width: 12000px) {
+    
+    .m83Logo {
+        margin-left: 4%;
+
+    }
+
+    .hamburger-menu {
+        margin-top: 2%;
+        margin-right: 2%;
+    }
+
+    .menuCierre {
+        margin-top: -11%;
+        margin-right: 16%;
+    }
+
+    .logoMenu {
+        width: 30px;
+        /*margin-right: -35%;*/
+        /*border: 1px solid var(--blanco);*/
+
+    }
+}
+
+/* medias toda la pagina */
 @media (max-width: 1200px) {
     
     .m83Logo {
@@ -340,6 +366,22 @@ body {
 
     }
 
+    .hamburger-menu {
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+
+    .menuCierre {
+        margin-top: -8%;
+        margin-right: 8%;
+    }
+
+    .logoMenu {
+        width: 30px;
+        /*margin-right: -35%;*/
+        /*border: 1px solid var(--blanco);*/
+
+    }
 }
 
 @media (max-width: 950px) {
@@ -349,9 +391,42 @@ body {
 
     }
 
+    .hamburger-menu {
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+
+    .menuCierre {
+        margin-top: -10%;
+        margin-right: 8%;
+    }
+
+    .logoMenu {
+        width: 30px;
+        /*margin-right: -35%;*/
+        /*border: 1px solid var(--blanco);*/
+
+    }
 }
 
 @media (max-width: 900px) {
+
+    .hamburger-menu {
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+
+    .menuCierre {
+        margin-top: -12%;
+        margin-right: 7%;
+    }
+
+    .logoMenu {
+        width: 30px;
+        /*margin-right: -35%;*/
+        /*border: 1px solid var(--blanco);*/
+
+    }
     
     .videoYoutube {
         width: 90%;
@@ -370,7 +445,6 @@ body {
         width: 60rem;
 
     }
-
 }
 
 @media (max-width: 780px) {
@@ -380,11 +454,45 @@ body {
 
     }
 
+    .hamburger-menu {
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+
+    .menuCierre {
+        margin-top: -14%;
+        margin-right: 7%;
+    }
+
+    .logoMenu {
+        width: 30px;
+        /*margin-right: -35%;*/
+        /*border: 1px solid var(--blanco);*/
+
+    }
+
 }
 
 @media (max-width: 720px) {
     .m83Logo {
         margin-left: 6.5%;
+
+    }
+
+    .hamburger-menu {
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+
+    .menuCierre {
+        margin-top: -16%;
+        margin-right: 5%;
+    }
+
+    .logoMenu {
+        width: 30px;
+        /*margin-right: -35%;*/
+        /*border: 1px solid var(--blanco);*/
 
     }
 
@@ -403,10 +511,27 @@ body {
         width: 63%;
 
     }
-
 }
 
 @media (max-width: 610px) {
+
+    .hamburger-menu {
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+
+    .menuCierre {
+        margin-top: -18%;
+        margin-right: 4%;
+    }
+
+    .logoMenu {
+        width: 28px;
+        /*margin-right: -35%;*/
+        /*border: 1px solid var(--blanco);*/
+
+    }
+
     .iframeVideo {
         width: 90%;
         height: 70%;
@@ -423,7 +548,6 @@ body {
         font-size: 1.6rem;
 
     }
-
 }
 
 @media (max-width: 550px) {
@@ -434,22 +558,54 @@ body {
 
     }
 
+    .hamburger-menu {
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+
+    .menuCierre {
+        margin-top: -19%;
+        margin-right: 4%;
+    }
+
+    .logoMenu {
+        width: 28px;
+        /*margin-right: -35%;*/
+        /*border: 1px solid var(--blanco);*/
+
+    }
+
     .tituloImg {
         width: 100%;
         height: 100%;
 
     }
-
 }
 
 @media (max-width: 490px) {
+
+    .hamburger-menu {
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+
+    .menuCierre {
+        margin-top: -21%;
+        margin-right: 4%;
+    }
+
+    .logoMenu {
+        width: 28px;
+        /*margin-right: -35%;*/
+        /*border: 1px solid var(--blanco);*/
+
+    }
 
     .texto,
     .segundoTexto {
         width: 38rem;
 
     }
-
 }
 
 @media (max-width: 390px) {
@@ -464,6 +620,23 @@ body {
         width: 90%;
         margin-top: 0;
         margin-bottom: 0;
+
+    }
+
+    .hamburger-menu {
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+
+    .menuCierre {
+        margin-top: -21%;
+        margin-right: 4%;
+    }
+
+    .logoMenu {
+        width: 28px;
+        /*margin-right: -35%;*/
+        /*border: 1px solid var(--blanco);*/
 
     }
 
@@ -487,7 +660,6 @@ body {
         width: 73%;
 
     }
-
 }
 
 @media (max-width: 350px) {
@@ -498,9 +670,19 @@ body {
 
     }
 
+    .hamburger-menu {
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+
+    .menuCierre {
+        margin-top: -22%;
+        margin-right: 5%;
+    }
+
     .logoMenu {
-        width: 50px;
-        margin-right: -35%;
+        width: 28px;
+        /*margin-right: -35%;*/
         /*border: 1px solid var(--blanco);*/
 
     }
@@ -517,14 +699,6 @@ body {
         margin-left: 5%;
         
     }
-
-    .menuCierre {
-        width: 55px;
-        margin-top: -67px;
-        margin-right: 9%;
-
-    }
-
 }
 
 @media (max-width: 330px) {
@@ -540,8 +714,18 @@ body {
 
     }
 
+    .hamburger-menu {
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+
+    .menuCierre {
+        margin-top: -22%;
+        margin-right: 13%;
+    }
+
     .logoMenu {
-        width: 50px;
+        width: 28px;
         margin-right: -60%;
         /*border: 1px solid var(--blanco);*/
 
@@ -554,14 +738,6 @@ body {
         margin-left: 8%;
         
     }
-
-    .menuCierre {
-        width: 64px;
-        margin-top: -72px;
-        margin-right: 18%;
-
-    }
-
 }
 
 @media (max-width: 320px) {
@@ -577,8 +753,18 @@ body {
 
     }
 
+    .hamburger-menu {
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+
+    .menuCierre {
+        margin-top: -22%;
+        margin-right: 20%;
+    }
+
     .logoMenu {
-        width: 50px;
+        width: 28px;
         margin-right: -70%;
         /*border: 1px solid var(--blanco);*/
 
@@ -591,14 +777,6 @@ body {
         margin-left: 12%;
         
     }
-
-    .menuCierre {
-        
-        margin-top: -71px;
-        margin-right: 20.5%;
-
-    }
-
 }
 
 @media (max-width: 311px) {
@@ -609,8 +787,18 @@ body {
 
     }
 
+    .hamburger-menu {
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+
+    .menuCierre {
+        margin-top: -22%;
+        margin-right: 4%;
+    }
+
     .logoMenu {
-        width: 40px;
+        width: 28px;
         margin-top: 70%;
         margin-right: 20%;
         /*border: 1px solid var(--blanco);*/
@@ -654,17 +842,19 @@ body {
         margin-left: 0;
         
     }
-
-    .menuCierre {
-        width: 50px;
-        margin-top: -73px;
-        margin-right: -2px;
-
-    }
-
 }
 
 @media (max-width: 280px) {
+    .hamburger-menu {
+        margin-top: 6%;
+        margin-right: 5%;
+    }
+
+    .menuCierre {
+        margin-top: -22%;
+        margin-right: 6%;
+    }
+
     .logoMenu {
         margin-top: 40%;
         margin-right: -20%;
@@ -697,12 +887,4 @@ body {
         margin: 0 auto;
         
     }
-
-    .menuCierre {
-        width: 50px;
-        margin-top: -70px;
-        margin-right: 10px;
-
-    }
-
 }
