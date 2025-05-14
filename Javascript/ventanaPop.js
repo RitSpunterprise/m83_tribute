@@ -9,14 +9,14 @@ sonidoAlerta2.src = "https://github.com/RitSpunterprise/m83_tribute/blob/main/sn
 function formulario() {
 
     //obtenemos los elementos que queremos mostrar en las ventanas emergentes
-    let nombre = document.getElementById("nombre").value;
-    let apellidos = document.getElementById("apellidos").value;
-    let email = document.getElementById("email").value;
-    let telefono = document.getElementById("telefono").value;
+    let nombre = document.getElementById("nombre");
+    let apellidos = document.getElementById("apellidos");
+    let email = document.getElementById("email");
+    let telefono = document.getElementById("telefono");
     let marketing = document.getElementById("checkMarketing");
 
     //si alguno de estos no está lleno
-    if (nombre == "" || apellidos == "" || email == "" || telefono == "") {
+    if (nombre.value == "" || apellidos.value == "" || email.value == "" || telefono.value == "") {
         //le avisamos que debe llenarlo
         swal({
             icon: 'Img/error_64.png',
@@ -30,7 +30,7 @@ function formulario() {
 
         //de lo contrario
     } else {
-        let mensajeFinal = "Gracias " + nombre + " por suscribirse a M83," + " se ha añadido su correo " + email + " y su número de teléfono " + telefono
+        let mensajeFinal = "Gracias " + nombre.value + " por suscribirse a M83," + " se ha añadido su correo " + email.value + " y su número de teléfono " + telefono.value
             + ", exitosamente!";
 
         //le decimos que gracias
@@ -39,9 +39,6 @@ function formulario() {
             icon: 'Img/Check_Circle_64.png',
             buttons: { cancel: "OK" }
         });
-
-        //suena sonido 
-        sonidoAlerta2.play();
 
         //y si el check está activo, le anadimos eso a la ventana emergente 
         if (marketing.checked) {
@@ -52,11 +49,17 @@ function formulario() {
                 buttons: { cancel: "OK" }
 
             });
-
-            //suena sonido
-            sonidoAlerta2.play();
         }
 
-    }
+        //suena sonido
+        sonidoAlerta2.play();
 
+        //Limpiar el formulario
+        nombre.value = "";
+        apellidos.value = "";
+        email.value = "";
+        telefono.value = "";
+        marketing.checked = false;
+
+    }
 }
