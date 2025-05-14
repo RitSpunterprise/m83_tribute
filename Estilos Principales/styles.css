@@ -138,11 +138,20 @@ body {
 
 }
 
-/*Solo para la imagen de Do It Try It del penultimo parrafo porque no se encontro otra de un tamanio igual a las demas*/
+/*Solo para la imagen de Do It Try It porque no se encontro otra de un tamanio igual a las demas*/
 .imgDoIt {
     display: flex;
     justify-content: center;
-    width: 55%;
+    width: 56%;
+    /*border: 1px solid var(--blanco);*/
+
+}
+
+/*Solo para la imagen de album Fantasy porque no se encontro otra de un tamanio igual a las demas*/
+.imgFantasy {
+    display: flex;
+    justify-content: center;
+    width: 72%;
     /*border: 1px solid var(--blanco);*/
 
 }
@@ -286,6 +295,17 @@ body {
 
 }
 
+/* Referencias */
+.referencias {
+    margin-top: 3%;
+    margin-bottom: -2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
 /* footer */
 .piePagina {
@@ -302,7 +322,6 @@ body {
     color: var(--blanco);
     font-size: 1.3rem;
     margin-top: 3.8rem;
-
 
 }
 
