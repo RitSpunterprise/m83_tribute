@@ -1,9 +1,0 @@
-::selection{
-    background-color: rgb(99, 21, 171);
-    
-}
-
-.txtField::selection{
-    color: var(--blanco);
-    
-}

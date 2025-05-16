@@ -1,0 +1,27 @@
+@media (max-width: 800px) {
+    .spotify2 {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .spotify2 {
+        margin-left: 1%;
+    }
+
+}
+
+@media (max-width: 330px) {
+    .spotify2 {
+        margin-left: 3%;
+    }
+
+}
+
+@media (max-width: 311px) {
+    .spotify2 {
+        margin-left: 0;
+    }
+
+}
