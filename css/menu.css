@@ -1,0 +1,90 @@
+:root {
+    --rositaHover: #A36C79;
+    --strongRositaHover: #91626d;
+    --rosaMenu: #ab7477;
+    --azulMenu: #9aaecb;
+    --blanco: #fff;
+
+}
+
+#boton_Menu {
+    display: none;
+    /*z-index: 2000;*/
+
+}
+
+.imgLabel {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    margin-left: 95%;
+
+}
+
+.imgLabel:hover {
+    cursor: pointer;
+    background: var(--rositaHover);
+
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-top: 30%;
+
+}
+
+.menu li:hover {
+    background: var(--strongRositaHover);
+
+}
+
+.menu li a {
+    display: block;
+    margin-top: 2%;
+    padding: 15px 20px;
+    color: var(--blanco);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+
+}
+
+/**/
+
+.imgLabel {
+    display: block;
+
+}
+
+.menu {
+    position: fixed;
+    background: linear-gradient(185deg, var(--rosaMenu) 74%, var(--azulMenu) 100%);
+    width: 220px;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    transition: all 0.7s;
+    overflow: auto;
+    z-index: 1200;
+    
+}
+
+.menu ul {
+    flex-direction: column;
+
+}
+
+/* cuando el boton del menu tenga el checked, con ese selector lo que se indica es que 
+    va a buscar hasta encontrar la clase menu en el HTML, y la va a seleccionar */
+#boton_Menu:checked~.menu {
+    /*display: contents;  con este, el menu sale de arriba, buen efecto*/
+    /*display: block;*/
+    position: fixed;
+    top: 0%;
+    right: 0;
+    margin-left: 85%;
+
+}
